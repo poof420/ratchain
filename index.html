@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width">
   <title>ratchain protocol ERC rat</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: data: https://*.w3s.link https://*.nftstorage.link https://*.dweb.link https://ipfs.io/ipfs/ https://*.githubusercontent.com https://polygon-rpc.com https://rpc.testnet.fantom.network https://unpkg.com;">
 </head>
 
 <body>
@@ -17,9 +18,10 @@
   <script type="importmap">
     {
       "imports": {
-        "three": "https://unpkg.com/three@0.143.0/build/three.module.js",
-        "MTLLoader": "https://unpkg.com/three@0.143.0/examples/jsm/loaders/MTLLoader.js",
-        "OBJLoader": "https://unpkg.com/three@0.143.0/examples/jsm/loaders/OBJLoader.js"
+        "three": "/three/build/three.module.js",
+        "MTLLoader": "/three/examples/jsm/loaders/MTLLoader.js",
+        "OBJLoader": "/three/examples/jsm/loaders/OBJLoader.js",
+        "three-ammo": "https://unpkg.com/three-ammo@0.3.0/Ammo.js"
       }
     }
   </script>
