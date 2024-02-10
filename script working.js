@@ -1,6 +1,9 @@
-import * as THREE from 'three';
-import { MTLLoader } from 'MTLLoader';
-import { OBJLoader } from 'OBJLoader';
+// Example adjustments in script working.js
+import * as THREE from 'https://unpkg.com/three@0.143.0/build/three.module.js';
+import { MTLLoader } from 'https://unpkg.com/three@0.143.0/examples/jsm/loaders/MTLLoader.js';
+import { OBJLoader } from 'https://unpkg.com/three@0.143.0/examples/jsm/loaders/OBJLoader.js';
+
+// Your existing code using THREE, MTLLoader, and OBJLoader follows here
 
 // Create the scene
 const scene = new THREE.Scene();
