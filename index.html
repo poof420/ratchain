@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ratchain protocol ERC rat</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- Usage of es-module-shims for browsers that don't support import maps natively -->
+  <div align="center">
+    <h1><img src="rat pellet.png">Ratchain (ERC-RAT) Protocol Simulator<img src="rat pellet.png"></h1>
+    <h2>The future of media is minting Rats onchain on Ratchain (ERC-RAT) while onchain</h2>
+  </div>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.143.0/build/three.module.js",
+        "MTLLoader": "https://unpkg.com/three@0.143.0/examples/jsm/loaders/MTLLoader.js",
+        "OBJLoader": "https://unpkg.com/three@0.143.0/examples/jsm/loaders/OBJLoader.js"
+      }
+    }
+  </script>
+  <script src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+
+  <!-- Your main script -->
+  <script type="module" src="script working.js"></script>
+  <div align="center">
+    <button id="addObjectButton">Mint New Spinning Windows Movie Maker Rat to Ratchain Protocol Instance</button>
+  </div>
+</body>
+
+</html>
