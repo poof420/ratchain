@@ -1,5 +1,5 @@
 // Example adjustments in script working.js
-import * as THREE from '/three/build/three.js';
+import * as THREE from './three/three.module.js';
 import { MTLLoader } from '/three/examples/jsm/loaders/MTLLoader.js';
 import { OBJLoader } from '/three/examples/jsm/loaders/OBJLoader.js';
 
